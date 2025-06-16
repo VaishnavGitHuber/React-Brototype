@@ -10,6 +10,7 @@
 #### L1 Introduction to React
 - React is a Javascript frontend framework devoloped by facebook in 2013.
 - React uses JSX(Javascript XML) which is similar to HTML.
+- React is used to devolop SPA(Single page application)
 - Installation of react includes
 - 1. download and install node(npm comes along with the node installation)
      ```
