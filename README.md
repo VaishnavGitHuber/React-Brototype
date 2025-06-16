@@ -49,4 +49,24 @@ class Welcome extends React.Component {
 export default Welcome;
 ```
 ---- 
+#### Hooks, use state, spread operator
+- **React Hooks**: React Hooks are special methods, that let you use state, life cycle methods, other features of react.
+- Syntax for defining a state using react hooks(useState)
+  ```
+  import {useState} from 'react'
 
+  def Counter(){
+    // defining a state using React Hooks(useState)
+    // count -> current value of state, setCount -> function to update state, useState -> hooks to define state
+  
+    let [count, setCount] = useState(0);
+    const addCount = () => {
+      setCount(count + 1);
+    }
+  
+    return (
+      <button onClick = {addCount}>Add</button>
+      <h2>Counter : {count}</h2>
+    )
+  }
+  ```
