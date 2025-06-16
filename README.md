@@ -7,7 +7,7 @@
 - L4 : use effect 
 - L5 : Todo project
 
-#### L1 Introduction to React
+### L1 Introduction to React
 - React is a Javascript frontend framework devoloped by facebook in 2013.
 - React uses JSX(Javascript XML) which is similar to HTML.
 - React is used to devolop SPA(Single page application)
@@ -24,7 +24,7 @@
      ```
 - Once the project is created with the specified app_name, ready for the use.
 
-#### L2 DOM, Virtual DOM, Function and class component
+### L2 DOM, Virtual DOM, Function and class component
 ---- 
 - Components(one of many pieces) are used to break the complex UI structures into managable pieces.
 - Components can be achived in 2 ways,
@@ -49,7 +49,7 @@ class Welcome extends React.Component {
 export default Welcome;
 ```
 ---- 
-#### Hooks, use state, spread operator
+### L3 Hooks, use state, spread operator
 - **React Hooks**: React Hooks are special methods, that let you use state, life cycle methods, other features of react.
 - Syntax for defining a state using react hooks(useState)
   ```
