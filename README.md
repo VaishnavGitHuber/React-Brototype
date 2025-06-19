@@ -3,8 +3,8 @@
 ### First week consist of 5 Lecture 15 June 2025 to 22 June 2025 
 - L1 : Introduction to React ✅ 15 June 2025
 - L2 : DOM, Virtual DOM, Function and class component ✅ 16 June 2025
-- L3 : Hooks, use state, spread operator
-- L4 : use effect 
+- L3 : Hooks, use state, spread operator ✅ 18 June 2025
+- L4 : use effect ✅ 19 June 2025
 - L5 : Todo project
 
 ### L1 Introduction to React
@@ -70,3 +70,11 @@ export default Welcome;
     )
   }
   ```
+  - **Spread operator** used to pass multiple parameters in a single object
+    ```
+    const obj ={
+    title:'Counter 1',
+    count,
+    }
+    <Counter  {...obj}/> // ... -> spread operator
+    ```
