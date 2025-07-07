@@ -80,12 +80,12 @@ export default Welcome;
     ```
 
   ### L4 : USEEFFECT
-  - **useeffect: ** Use effect is used to perform some action during the life cycle of the components
+  - **useeffect:** Use effect is used to perform some action during the life cycle of the components
   - stages of the components,
     1. Mounting - loading a new component
     2. Updating - updating the value of the state 
     3. UnMounting - removing the component
-- useeffect takes 2 paramters,
-  1. callback function: activtes when it is mounting.(react18^ mount twice in restriced wrapping) ie. mounting-unmounting-mouting, 
+  - useeffect takes 2 paramters,
+    1. callback function: activtes when it is mounting.(react18^ mount twice in restriced wrapping) ie. mounting-unmounting-mouting, 
 return of the call back function : activates when the component is removed(once)
-  2. List : to pass of the states where the mounting-unmounting has to be work
+    2. List : to pass of the states where the mounting-unmounting has to be work
