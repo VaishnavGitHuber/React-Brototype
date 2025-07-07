@@ -78,8 +78,8 @@ export default Welcome;
     }
     <Counter  {...obj}/> // ... -> spread operator
     ```
-
-  ### L4 : USEEFFECT
+---
+### L4 : USEEFFECT
   - **useeffect:** Use effect is used to perform some action during the life cycle of the components
   - stages of the components,
     1. Mounting - loading a new component
@@ -115,3 +115,4 @@ return of the call back function : activates when the component is removed(once)
     }
     export default Counter;
     ```
+---
