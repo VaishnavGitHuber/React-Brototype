@@ -1,0 +1,30 @@
+.movies-section {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.movies-section h2 {
+  margin-bottom: 15px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  width: 150px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.movie-card p {
+  margin-top: 5px;
+  font-size: 14px;
+}
