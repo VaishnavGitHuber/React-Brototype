@@ -119,3 +119,8 @@ return of the call back function : activates when the component is removed(once)
 ### L5 TODO APP 
 ![](TODO/todo-app/output.png)
 ---
+### L6 Amazon clone 
+- using HTML + CSS
+![](AMAZON-CLONE/output.png)
+---
+
