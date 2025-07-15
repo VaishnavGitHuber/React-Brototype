@@ -1,11 +1,5 @@
 ##### React-Brototype
 
-### First week consist of 5 Lecture
-- L1 : Introduction to React 
-- L2 : DOM, Virtual DOM, Function and class component 
-- L3 : Hooks, use state, spread operator 
-- L4 : use effect 
-- L5 : Todo project 
 
 ### L1 Introduction to React
 - React is a Javascript frontend framework devoloped by facebook in 2013.
