@@ -118,3 +118,33 @@ return of the call back function : activates when the component is removed(once)
 ![](AMAZON-CLONE/output.png)
 ---
 
+### L6 API Data Loading using axios 
+- install the axioms using the terminal,
+  ```
+  npm i axios 
+  ```
+- Loading the data when the button press,
+  ```
+  <button onClick={()=>{
+      axios.get('https://jsonplaceholder.typicode.com/posts').then((response)=>{
+        setPosts(response.data);
+      })
+    }}>Load the Posts</button>
+  ```
+### L7 Routing 
+- create react app doesnot include routing
+- to add react router in your app,
+  ```
+  npm i react-router-app
+  ```
+- syntax
+  ```
+  <BrowserRouter>
+        <Routes>
+          <Route index element={<Layout />} />
+          <Route path="profile" element={<Profile />} />
+          <Route path="about" element={<About />} />
+          <Route path="*" element={<NoPage />} />
+        </Routes>
+      </BrowserRouter>
+  ```
